@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345">
+
+        <ImageButton
+            android:id="@+id/zodiac_image_two"
+            android:layout_width="60dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="178dp"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/calm" />
+
+        <ImageButton
+            android:id="@+id/zodiac_image_one"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="317dp"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/calm" />
+
+        <ImageButton
+            android:id="@+id/zodiac_image_three"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/calm" />
+
+        <TextView
+            android:id="@+id/zodiac_name_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="318dp"
+            android:layout_marginBottom="11dp"
+            android:text="TextView"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/zodiac_name_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/zodiac_name_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="178dp"
+            android:layout_marginBottom="12dp"
+            android:text="TextView"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="237dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="291dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
